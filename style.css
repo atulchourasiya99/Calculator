@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+  }
+  
+  #calculator {
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Updated shadow effect */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  input, button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    border: 1px solid #555; /* Updated border color */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+  }
+  
+  input {
+    width: 212px;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #555; /* Darker background on hover */
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Shadow effect on hover */
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  #display {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: right;
+    background-color: #444; /* Updated background color */
+    color: #fff; /* Updated text color */
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1); /* Inset shadow effect */
+  }
+  
